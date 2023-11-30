@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:"Poppin", sans-serif ;
+}
+#header {
+    background: #2F2F2F;
+    padding: 20px 0;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 31px;
+    font-weight: 700;
+    color: #F59B00;
+    text-decoration: none;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.links a {
+    font-size: 16px;
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.links a:hover {
+    opacity: 1;
+}
+.links button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #F59B00;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+#hero {
+    background: #2F2F2F;
+    height: 733px;
+}
+.content-left {
+    margin-top: 119px;
+    position: relative;
+    top: -700px;
+}
+.content-left {
+    color: #F59B00;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.content-left h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    padding: 10px 0;
+    text-transform: none;
+}
+.content-left span {
+    color:#F59B00 ;
+}
+.content-left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c5c0c0;
+}
+.content-left button {
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #F59B00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    transition: 0.45;
+    cursor: pointer;
+}
+.content-left button:hover {
+    background: white;
+    color: black;
+}
+.hero-content {
+    display: flex;
+}
+.content-right img {
+    position: relative;
+    top: 600px;
+    left: 500px;
+}
+.hero-navs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.hero-navs a {
+    color: #2F2F2F;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 40px   ;
+}
+.line {
+    width: 264px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 2.5px;
+    background: #F59B00;
+    margin-left: 280px;
+}
+.hero-images {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.about-blue {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 100px;
+    margin-left: -200px;
+}
+.about-text h6 {
+    color: #F59B00;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -100px;
+    padding: 15px;
+    margin-left: -20px;
+}
+.about-text h3 {
+    color: #2F2F2F;
+    font-size: 31px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: -15px;
+}
+.about-text p {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.about-text button {
+    background: #F59B00;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+}
+.product-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column;
+}
+.product-help h1 {
+    color: #2F2F2F;
+    font-size: 31px;
+    font-weight: 700;
+    margin-left: -100px;
+    text-align: center;
+}
+.product-help p {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 500px;
+    margin-left: px;
+    padding-top: 30px;
+}
+.product-image {
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 0;
+}
+.buttons button {
+    color: #F59B00;
+    border: none;
+    padding: 30px;
+    background: #fff;
+} 
+/* .line-purple {
+    width: 1146px;
+    height: 549px;
+    background: rgba(47, 47, 47, 0.95);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.line-number h1 {
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    position: absolute;
+    right: 500px;
+    max-width: 450px;
+    margin-top: -450px;
+}
+.input text {
+
+} */
+
+
+
+
+    
+
+
+
+
